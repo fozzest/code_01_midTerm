@@ -81,8 +81,13 @@ void draw() {
 
 
 if (x > 750 && y <= red +50 ) {
-   x =  x -dx;
-   y = y -dy;
+   dx = -dx;
+   //y = y -dy;
+}
+
+if (x < 10 && y <= blue +50 ) {
+   dx = -dx;
+   //y = y -dy;
 }
 
 
